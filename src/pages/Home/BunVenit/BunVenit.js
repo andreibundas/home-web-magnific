@@ -33,7 +33,7 @@ const BunVenit = () => {
                 <div className='amazing-text'>
 
                    
-                    <h1> <span color='black'> Bun venit la </span> Hotel & Restaurant Magnific ! </h1>
+                    <h1> <span color='black'> Bun venit la </span> Hotel & Restaurant Magnific 3 stele !!!  </h1>
                     <br />
 
 
