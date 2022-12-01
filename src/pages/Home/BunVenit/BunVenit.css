@@ -1,0 +1,31 @@
+
+.contianer-color {
+    background-color: var(--color-background);
+}
+
+
+.amazing-text {
+    width: 100%;
+    padding: 20px 50px ;
+}
+
+.amazing-text h1 {
+    color: var(--color-primary) !important;
+    padding: 15px, 0;
+}
+
+  
+
+@media screen and (max-width: 768px ) {
+
+    .amazing-text h1 {
+        color: var(--color-primary) !important;
+        padding: 5px, 0;
+    }
+    
+    .amazing-text {
+        width: 100%;
+        padding: 10px 25px ;
+    }
+ 
+}

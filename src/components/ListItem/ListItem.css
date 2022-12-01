@@ -1,0 +1,25 @@
+.list-items {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.list-items ul {
+    width: 100%;
+}
+
+.list-items ul li {
+    display: flex;
+    padding: 10px 5px;
+    border-bottom: 1px dashed #ebe8e2;
+}
+
+.list-items ul li h3 {
+    margin-left: auto;
+}
+
+.list-items img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin-right: 35px;
+}

@@ -1,0 +1,137 @@
+
+.contianer-color2 {
+    background-color: var(--color-background2);
+}
+
+/* .amazing {
+    display: flex;
+    gap: 30%;
+} */
+
+.amazing-text {
+    width: 100%;
+    padding: 20px 50px ;
+}
+
+.amazing-text h1 {
+    color: var(--color-primary) !important;
+    padding: 15px, 0;
+}
+
+/* .amazing-text p {
+    font-size: 20px;
+} */
+
+.amazing-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+}
+
+.amazing-container .amazing-carousal-rest {
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.amazing-carousal-rest img {
+    width: 100%;
+    height: 60vh;
+    border-radius: 25px;
+}
+
+.slick-prev:before,
+.slick-next:before,
+.slick-dots li.slick-active button:before {
+    color: var(--color-primary) !important;
+}
+
+.amazing-content {
+    width: 40;
+}
+
+.amazing-content p {
+    padding: 20px 0;
+}
+
+.amazing-card-container-rest {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 5%;
+    padding-top: 50px;
+}
+
+.amazing-card {
+    width: 30%;
+}
+
+.amazing-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.amazing-card-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.amazing-card-content p {
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 768px ) {
+
+    .amazing-text h1 {
+        color: var(--color-primary) !important;
+        padding: 5px, 0;
+    }
+    
+    /* .amazing-text p {
+        font-size: 10px;
+    } */
+
+    .amazing-container {
+        flex-direction: column;
+    }
+
+    .amazing-text {
+        width: 100%;
+        padding: 10px 25px ;
+    }
+
+    .amazing-carousal-rest {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .amazing-content {
+        width: 100%;
+    }
+
+    .amazing-card-container-rest {
+        flex-direction: column;
+    }
+
+    .amazing-card {
+        width: 100%;
+    }
+
+    .amazing-card-left {
+        margin-bottom: 20px;
+    }
+
+    .amazing-container .amazing-carousal-rest  {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .amazing-container .amazing-carousal-rest img {
+        width: 100%;
+        height: 30vh;
+        border-radius: 5px;
+    }
+}

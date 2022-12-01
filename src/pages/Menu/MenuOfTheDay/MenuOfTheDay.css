@@ -1,0 +1,10 @@
+.menu-of-the-day h1 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 200px;
+  }
