@@ -35,14 +35,14 @@ const handleClick = () => {
               <NavLink className='nav-link' to="/">Home</NavLink>
             </li>
             <li onClick={handleClick}>
-              <NavLink className='nav-link' to="/rstaurant">Restaurant</NavLink>
+              <NavLink className='nav-link' to="/restaurant">Restaurant</NavLink>
             </li>
             <li onClick={handleClick}>
               <NavLink className='nav-link' to="/menu">Menu</NavLink>
             </li>
-            <li onClick={handleClick}>
+            {/* <li onClick={handleClick}>
               <NavLink className='nav-link' to="/hotel">Hotel</NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink className='nav-link' to="/about">About</NavLink>
             </li>
